@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e5e5f7;
+    background-size: 80px 80px;
+    background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 4px, #e5e5f7 4px, #e5e5f7);
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.h1{
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: .5px;
+    border: 5px solid #f00;
+    border-radius: 20px;
+}
+
+h3{
+    color:#000;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+span{
+    font-family: 'Varela Round', sans-serif;
+    color:#f00;
+    font-weight: bold;
+}
+
+label{
+    color: #000;
+    font-family: 'Gantari', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+input{
+    font-size: 1em;
+    color:#fff;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    border:5px #fff double;
+}
+
+.x{
+    margin: auto;
+    color:#bdb76b;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.texto{
+    color:#bdb76b;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fecha{
+    font-family: 'Staatliches', cursive;
+    background-color: #000;
+}
+
+.fecha:hover{
+    cursor: pointer;
+}
+
+.envio{
+    margin-top: 25px;
+    font-family: 'Staatliches', cursive;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #000;
+    width: 10%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.datos{
+    display: block;
+    color:#000;
+    padding: 10px;
+    font-size:1.5em;
+    margin-top:30px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #000;
+    border-radius: 10px;
+}
+
+.envio:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.monto{
+    background-color: #000;
+    height: 45px;
+}
+
+::placeholder{
+    font-family: 'Staatliches', cursive;
+    color:#fff;
+}
+
+.else {
+    display: block;
+    color:#000000;
+    font-size:1.5em;
+    margin-top:30px;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+
+footer{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #000;
+    width: 100%;
+    bottom:0;
+    position:fixed;
+    text-align: center;
+    color:#fff;
+}
+
+.disclaimer{
+	display:none;
+}
+
+@media screen and (max-width:400px){
+    
+    body{
+        background-size: 130%;
+        background-repeat: repeat-y;
+    }
+
+    input{
+        margin-top: 10px;
+        margin-bottom:10px;
+        width:auto;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    .else{
+        width:90%;
+        margin-bottom: 15px;
+    }
+
+    .envio{
+        width:90%;
+    }
+
+    .fecha{
+        width:80%;
+    }
+
+    .monto{
+        width:80%;
+    }
+
+    .datos{
+        margin-bottom: 15px;
+        width:90%;
+        background-color: #000;
+        color: #fff;
+        border: 5px solid rgb(253, 203, 203);
+    }
+}
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    .fecha{
+        width: 60%;
+    }
+    .envio{
+        width: 80%;
+    }
+    input{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    .datos{
+        background-color: #000;
+        color: #fff;
+        border: 5px solid rgb(253, 203, 203);
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1050px){
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+    .fecha{
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        text-align: center;
+    }
+    .envio{
+        width: 20%;
+    }
+    .datos{
+        background-color: #000;
+        color: #fff;
+        border: 5px solid rgb(253, 203, 203);
+    }
+}

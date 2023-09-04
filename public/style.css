@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #1e2249;
+    color: #f5f5fa;
+    font-size: 100%;
+}
+
+main, section {
+    z-index: 2;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Nav */
+.navNav {
+    background-color: #18182a;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sectionNav {
+    display: flex;
+}
+
+.nombreNav {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
+}
+
+.navegacionNav {
+    margin-left: auto;
+}
+
+.inicioNavegacionA, .sobreMiNavegacionA, .proyectosNavegacionA, .tecnologiasNavegacionA, .contactoNavegacionA {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    padding: 15px;
+}
+
+.inicioNavegacionA:hover, .sobreMiNavegacionA:hover, .proyectosNavegacionA:hover, .tecnologiasNavegacionA:hover, .contactoNavegacionA:hover {
+    color: #7575eb;
+    cursor: pointer;
+}
+
+
+
+/* Información */
+.divInformacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.nombreInformacionP {
+    font-size: 130px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Sobre Mi*/
+.sobreMiSection {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #18182a;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px;
+    height: 350px;
+}
+
+.sobreMiSectionDiv {
+    padding: 40px;
+    width: 70%;
+}
+
+.h2SobreMi {
+    font-size: 40px;
+}
+
+.spanSobreMi {
+    display: block;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.divPSobreMi {
+    margin-top: 30px;
+}
+
+
+
+/* Tecnologías */
+.tituloTecnologias {
+    font-size: 40px;
+}
+
+.tecnologiaUtilizadaImg1, .tecnologiaUtilizadaImg2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.iconosTecnologias {
+    background-color: #18182a;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 1200px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.divAllTecnologias {
+    padding: 40px;
+}
+
+.lenguajes, .baseDeDatos, .herramientas {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.divHerramientas,  .divLenguajes, .divBaseDeDatos {
+    /*border: 1px solid #4da31b;*/
+    
+}
+
+.herramientasP, .lenguajesP, .baseDeDatosP {
+    display: block;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    /*border: 1px solid #fff;*/
+}
+
+.herramientasInfo, .lenguajesInfo, .baseDeDatosInfo {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid #fff;*/
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.iconoTecnologiaDiv {
+    height: 200px;
+    width: 200px;
+    /*border: 1px solid #fff;*/
+    transition: all 150ms ease-in-out 100ms;
+}
+
+.iconoTecnologiaDiv:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #252547;
+    border-radius: 5px;
+}
+
+.iconoTecnologiaDivDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /*border: 1px solid #fff;*/
+}
+
+.nombreIconoTecnologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    /*border: 1px solid #fff;*/
+}
+
+.icono {
+    height: 120px;
+    width: 120px;
+}
+
+.expressvg {
+    filter: brightness(0) invert(1);
+}
+
+
+
+/* Proyectos */
+.divProyectos {
+    background-color: #18182a;
+    height: 500px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    /*border: 1px solid #fff;*/
+}
+
+.divAllProyectos {
+    /*border: 1px solid #fff;*/
+    padding: 40px;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid #fff;*/
+    margin-top: 50px;
+    width: 90%;
+}
+
+.proyectosTitulo {
+    font-size: 40px;
+}
+
+.proyecto1Div, .proyecto2Div {
+    /*border: 1px solid #fff;*/
+    width: 40%;
+    border-radius: 5px;
+    padding: 30px;
+    transition: all 200ms ease-in-out 100ms;
+}
+
+.proyectosDivHover:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #252547;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.nombreProyecto1, .nombreProyecto2 {
+    font-size: 30px;    
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.descripcionProyecto1, .descripcionProyecto2 {
+    /*border: 1px solid #fff;*/
+    padding: 20px 20px 20px 0;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.tecnologiasUtilizadasProyectos {
+    width: 50%;
+    /*border: 1px solid #ffffff;*/
+    display: flex;
+    justify-content: start;
+}
+
+.linksWebProyectos {
+    /*border: 1px solid #fff;*/
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.tecnologiaUtilizadaImg {
+    margin-right: 10px;
+}
+
+.linkPaginaWebProyecto {
+    margin-left: 15px;
+}
+
+.tecnologiasUtilizadasYLinkWebProyectos {
+    /*border: 1px solid khaki;*/
+    display: flex;
+}
+
+.proyecto2Div {
+    margin-left: auto;
+}
+
+
+
+/* Contacto */
+
+.divContacto {
+    background-color: #18182a;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 1000px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contactoAllDiv {
+    padding: 40px;
+    width: 90%;
+}
+
+.contactoTitulo {
+    font-size: 40px;
+}
+
+.unionFormIconosContacto {
+    display: flex;
+    border: 1px solid #fff;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.inputForm {
+    display: flex;
+    justify-content: center;
+    background-color: #18182a;
+    padding: 10px;
+    color: #f5f5fa;
+    width: 100%;
+}
+
+.inputForm::placeholder {
+    color: #f5f5fa;
+}
+
+.labelForm, .inputForm {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactoAllDiv, .h2ContactoDiv, .iconosContactoDiv, .myemail{
+    border: 1px solid #fff;
+}
