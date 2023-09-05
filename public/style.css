@@ -66,7 +66,7 @@ img {
 }
 
 .inicioNavegacionA:hover, .sobreMiNavegacionA:hover, .proyectosNavegacionA:hover, .tecnologiasNavegacionA:hover, .contactoNavegacionA:hover {
-    color: #7575eb;
+    color: #04ad6194;
     cursor: pointer;
 }
 
@@ -179,7 +179,7 @@ img {
     height: 200px;
     width: 200px;
     /*border: 1px solid #fff;*/
-    transition: all 150ms ease-in-out 100ms;
+    transition: all 140ms ease-in-out 100ms;
 }
 
 .iconoTecnologiaDiv:hover {
@@ -313,7 +313,7 @@ img {
     display: flex;
     justify-content: start;
     align-items: start;
-    height: 1000px;
+    height: 600px;
     margin: 50px;
     padding: 30px;
     border-radius: 5px;
@@ -330,12 +330,115 @@ img {
 
 .unionFormIconosContacto {
     display: flex;
-    border: 1px solid #fff;
+    justify-content: start;
+    align-items: end;
+    padding: 30px 30px 30px 0;
+    /*border: 1px solid #fff;*/
+}
+
+.informacionDescripcionContactoDiv, .infoMyemailDiv, .formDiv, .unionFormIconosContacto {
+    /*border: 1px solid #fff;*/
+}
+
+.pInformacionSpan {
+    display: block;
+}
+
+.iconosContactoDivDivDiv {
+    padding: 10px 20px 10px 0px;
+    /*border: 1px solid #fff;*/
+}
+
+.s {
+    padding: 10px 20px 10px;
+}
+
+.iconoContactoImg {
+    width: 45px;
+    height: 45px;
+}
+
+.iconosContactoDivDiv {
+    display: flex;
+}
+
+.informacionDescripcionContactoDiv {
+    display: flex;
+    margin-top: 50px;
+}
+
+.infoMyemailDiv {
+    width: 700px;
+    height: max-content;
+    /*border: 1px solid #fff;*/
+}
+
+.pInformacionP {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.myemail {
+    /*border: 1px solid #fff;*/
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 0;
+}
+
+.myemailP {
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+
+.iconosContactoP, .iconosContactoDivDivDiv {
+    /*border: 1px solid #fff;¨*/
+}
+
+.cv {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out 200ms;
+}
+
+.cv:hover {
+    background-color: #01412494;
+}
+
+.cv:hover .cvP {
+    font-size: 22px;
+}
+
+.upDivCV {
+    width: 400px;
+    border-radius: 13px;
+}
+
+.cvP {
+    /*border: 1px solid #fff;*/
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    transition: all 170ms ease-in-out 170ms;
+}
+
+.cvImg {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.contactoEmailIcon {
+    width: 30px;
+    height: 30px;
 }
 
 .formDiv {
     display: flex;
-    justify-content: center;
+    margin-left: auto;
     padding: 30px;
 }
 
@@ -356,6 +459,6 @@ img {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.contactoAllDiv, .h2ContactoDiv, .iconosContactoDiv, .myemail{
-    border: 1px solid #fff;
+.contactoAllDiv, .h2ContactoDiv, .iconosContactoDiv{
+    /*border: 1px solid #fff;*/
 }
