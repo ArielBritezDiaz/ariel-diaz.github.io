@@ -539,3 +539,33 @@ textarea {
         transform: translateY(-10px);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 90%
+    }
+
+    .navNav {
+        padding: 0.5rem
+    }
+
+    .nombreNav {
+        font-size: 1em
+    }
+
+    .ulLinks {
+        flex-direction: column
+    }
+
+    .linkLink {
+        width: 100%
+    }
+
+    .divInformacion {
+        height: auto
+    }
+
+    .nombreInformacionP {
+        font-size: 3em
+    }
+}
