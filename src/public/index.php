@@ -53,19 +53,19 @@
             <div class="navegacionNav">
                 <ul class="ulLinks">
                     <div class="inicioNavegacionDiv">
-                        <a href="#Presentacion" class="inicioNavegacionA">Inicio</a>
+                        <a href="#Presentacion" class="inicioNavegacionA scroll-link">Inicio</a>
                     </div>
                     <div class="inicioNavegacionDiv">
-                        <a href="#Sobre-Mi" class="sobreMiNavegacionA">Sobre Mí</a>
+                        <a href="#Sobre-Mi" class="sobreMiNavegacionA scroll-link">Sobre Mí</a>
                     </div>
                     <div class="inicioNavegacionDiv">
-                        <a href="#Tecnologias" class="tecnologiasNavegacionA">Tecnologías</a>
+                        <a href="#Tecnologias" class="tecnologiasNavegacionA scroll-link">Tecnologías</a>
                     </div>
                     <div class="inicioNavegacionDiv">
-                        <a href="#Proyectos" class="proyectosNavegacionA">Proyectos</a>
+                        <a href="#Proyectos" class="proyectosNavegacionA scroll-link">Proyectos</a>
                     </div>
                     <div class="inicioNavegacionDiv">
-                        <a href="#Contacto" class="contactoNavegacionA">Contacto</a>
+                        <a href="#Contacto" class="contactoNavegacionA scroll-link">Contacto</a>
                     </div>
                 </ul>
             </div>
@@ -75,9 +75,12 @@
         <div>
             <div class="divInformacion" id="informacion">
                 <p class="nombreInformacionP">Ariel Díaz</p>
-                <!--<p class="nombreInformacionP">, Backend Developer</p>-->
+                <p class="nombreInformacionP">, Backend Developer</p> 
             </div>
-        </div>
+            <div class="arrowDown" id="arrowDown">
+    <img src="../assets/images/icons/arrowDown.svg" class="svg">
+</div>
+
     </main>
 
     <section id="Sobre-Mi" class="sobreMiSection">
@@ -146,7 +149,15 @@
                                     </div>
                                     <p class="nombreIconoTecnologia">Express</p>
                                 </a>
-                                
+                            </div>
+
+                            <div class="iconoTecnologiaDiv">
+                                <a href="https://reactnative.dev/" target="_blank" class="link">
+                                    <div class="iconoTecnologiaDivDiv">
+                                        <img src="../assets/images/icons/header_logo.svg" alt="ReactNative" class="icono">
+                                    </div>
+                                    <p class="nombreIconoTecnologia">React Native</p>
+                                </a>
                             </div>
 
                             <div class="iconoTecnologiaDiv">
@@ -156,8 +167,8 @@
                                     </div>
                                     <p class="nombreIconoTecnologia">PHP</p>
                                 </a>
-                                
                             </div>
+
                             <div class="iconoTecnologiaDiv">
                                 <a href="https://docs.oracle.com/en/java/" target="_blank" class="link">
                                     <div class="iconoTecnologiaDivDiv">
@@ -165,7 +176,6 @@
                                     </div>
                                     <p class="nombreIconoTecnologia">Java</p>
                                 </a>
-                                
                             </div>
                         </div>
                     </div>
@@ -267,8 +277,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <img src="../images/icons/" >
-            <img src="../images/icons/" > -->
         </div>
     </section>
     <section id="Proyectos">
@@ -306,6 +314,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="proyecto2Div proyectosDivHover">
                         <div id="nombreProyecto2">
                             <h2 class="nombreProyecto2">Páginas Dinámicas Compilado</h2>
@@ -362,6 +371,32 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="proyecto2Div proyectosDivHover">
+                        <div id="nombreProyecto2">
+                            <h2 class="nombreProyecto2">Flit</h2>
+                        </div>
+                        <div id="descripcionProyecto2">
+                            <p class="descripcionProyecto2">Aplicación Móvil para la gestión de finanzas personales</p>
+                        </div>
+                        <div class="tecnologiasUtilizadasYLinkWebProyectos">
+                            <div id="tecnologiasUtilizadasProyecto2" class="tecnologiasUtilizadasProyectos">
+                                <img src="../assets/images/icons/js.png" alt="JavaScript" class="tecnologiaUtilizadaImg">
+                                <img src="../assets/images/icons/header_logo.svg" alt="React Native" class="tecnologiaUtilizadaImg">
+                                <img src="../assets/images/icons/expo.svg" alt="Expo" class="tecnologiaUtilizadaImg">
+                                <img src="../assets/images/icons/nodejs.png" alt="NodeJs" class="tecnologiaUtilizadaImg">
+                                <img src="../assets/images/icons/express.svg" alt="Express" class="tecnologiaUtilizadaImg expressvg">
+                                <img src="../assets/images/icons/mysql-icon-512x503-n9f1krus.png" alt="MySQL" class="tecnologiaUtilizadaImg">
+                            </div>
+                            <div class="linksWebProyectos">
+                                <div id="linkCodigoGitHubProyecto2" class="linkPaginaWebProyecto">
+                                    <a href="https://github.com/ArielBritezDiaz/flit-application.git" alt="Flit" target="_blank">
+                                        <img src="../assets/images/icons/githubwhite.png" alt="https://github.com/ArielBritezDiaz/flit-application.git">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
@@ -403,21 +438,18 @@
                         <div class="unionFormIconosContacto">
                             <div class="iconosContactoDiv">
                                 <div class="iconosContactoDivDiv">
-                                    <a href="https://www.linkedin.com/in/ariel-britez-diaz-5b89bb260/" target="_blank" alt="LinkedIn" class="link">
+                                    <a href="https://www.linkedin.com/in/ariel-britez-diaz-5b89bb260/" target="_blank" alt="LinkedIn" class="link linkLink">
                                         <div class="iconosContactoDivDivDiv s">
                                                 <img src="../assets/images/icons/linkedin-icon-18-256.png" alt="Contacto LinkedIn" class="iconoContactoImg">
                                         </div>
                                     </a>
 
-                                    <a href="https://github.com/ArielBritezDiaz" target="_blank" alt="GitHub" class="link">
+                                    <a href="https://github.com/ArielBritezDiaz" target="_blank" alt="GitHub" class="link linkLink">
                                         <div class="iconosContactoDivDivDiv s">
                                                 <img src="../assets/images/icons/githubwhite.png" alt="Contacto GitHub" class="iconoContactoImg">
                                         </div>
                                     </a>
-                                    
-                                    
                                 </div>
-                                <!-- <img src="" alt=""> -->
                             </div>
                         </div>
                     </div>
